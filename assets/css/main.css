@@ -2162,13 +2162,15 @@
 		}
 
 		#main p {
+			margin-top: 20px;
 			text-align: center;
 			font-size: 30px;
 		}
 
 		#main .devicons i {
 			font-size: 100px;
-			margin: 10px;
+			margin: 0 20px;
+			line-height: 130px;
 		}
 
 		#features a > img {
@@ -2176,7 +2178,7 @@
 		}
 
 	#features .devicons i {
-	 	font-size: 40px;
+	 	font-size: 50px;
 	}
 
 	#features .devicons img {
