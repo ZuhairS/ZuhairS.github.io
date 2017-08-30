@@ -2163,8 +2163,12 @@
 
 		#main p {
 			text-align: center;
+			font-size: 30px;
 		}
 
+		#features a > img {
+			border: 1px solid #483949;
+		}
 	.devicons i {
 	 	font-size: 40px;
 	}
