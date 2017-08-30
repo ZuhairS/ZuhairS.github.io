@@ -2130,6 +2130,7 @@
 		background: #fff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
+		margin-top: 35px;
 		margin-bottom: 0;
 	}
 
@@ -2454,7 +2455,7 @@
 				padding-bottom: 1px;
 			}
 
-			#navButton {
+			/*#navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2591,9 +2592,9 @@
 
 				#navPanel .depth-0 {
 					color: #fff;
-				}
+				}*/
 
-			body.navPanel-visible #page-wrapper {
+			/*body.navPanel-visible #page-wrapper {
 				-moz-transform: translateY(50vh);
 				-webkit-transform: translateY(50vh);
 				-ms-transform: translateY(50vh);
@@ -2612,7 +2613,7 @@
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			}
+			}*/
 
 		/* Wrapper */
 
@@ -2631,6 +2632,10 @@
 					padding-top: 1.5em;
 					padding-left: 1em;
 					padding-right: 1em;
+				}
+
+				#header {
+					background: #FCFCFC;
 				}
 
 				#header header > p {
