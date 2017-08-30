@@ -2166,14 +2166,20 @@
 			font-size: 30px;
 		}
 
+		#main .devicons i {
+			font-size: 100px;
+			margin: 10px;
+		}
+
 		#features a > img {
 			border: 1px solid #483949;
 		}
-	.devicons i {
+
+	#features .devicons i {
 	 	font-size: 40px;
 	}
 
-	.devicons img {
+	#features .devicons img {
 	 	height: 30px;
 	}
 
