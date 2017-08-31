@@ -2134,10 +2134,14 @@
 		margin-bottom: 0;
 	}
 
-		#banner header > p {
-			margin-bottom: 0;
+		#banner header p {
+			width: 80%;
+			margin: 0 auto;
 			color: #483949;
+			margin-top: 40px;
+			margin-bottom: 40px;
 		}
+
 
 /* Content */
 
@@ -2173,9 +2177,14 @@
 			line-height: 130px;
 		}
 
-		#features a > img {
-			border: 1px solid #483949;
+		#features span a {
+			margin-left: 10px;
+			font-size: 30px;
 		}
+
+	#features a > img {
+		border: 1px solid #483949;
+	}
 
 	#features .devicons i {
 	 	font-size: 50px;
