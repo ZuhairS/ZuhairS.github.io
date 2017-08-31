@@ -2007,7 +2007,7 @@
 	}
 
 		.wrapper.style2 {
-			padding-top: 0;
+			padding-top: 6em;
 		}
 
 /* Header */
@@ -2063,6 +2063,10 @@
 			#header h1 a {
 				color: inherit;
 			}
+
+		#header h3 {
+			font-style: italic;
+		}
 
 		#header .button {
 			display: inline-block;
@@ -2142,6 +2146,57 @@
 			margin-bottom: 40px;
 		}
 
+		#banner h2 {
+			margin-bottom: 50px;
+		}
+
+		/*Timeline -  Kudos to Niels Voogt*/
+
+	.timeline {
+	  max-width: 1024px;
+	  width: 90%;
+	  margin: 0 auto;
+	}
+
+	.timeline-item {
+	  padding: 1em 1em 1em;
+	  position: relative;
+	  color: rgba(0, 0, 0, 0.7);
+	  border-left: 2px solid rgba(0, 0, 0, 0.3);
+	}
+
+	.timeline-item p {
+	  text-align: left;
+	}
+
+	.timeline-item::before {
+	  content: attr(date-is);
+	  position: absolute;
+	  left: 2em;
+	  font-weight: bold;
+	  top: 1em;
+	  display: block;
+	}
+
+	.timeline-item::after {
+	  width: 10px;
+	  height: 10px;
+	  display: block;
+	  top: 1em;
+	  position: absolute;
+	  left: -7px;
+	  border-radius: 10px;
+	  content: '';
+	  border: 2px solid rgba(0, 0, 0, 0.3);
+	  background: white;
+	}
+
+	.timeline-item:last-child {
+	  -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+	     border-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+	     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+	}
+
 
 /* Content */
 
@@ -2169,6 +2224,10 @@
 			margin-top: 20px;
 			text-align: center;
 			font-size: 30px;
+		}
+
+		#main .devicons {
+			margin-top: 40px;
 		}
 
 		#main .devicons i {
@@ -2295,6 +2354,10 @@
 				background-attachment: scroll;
 			}
 
+			#header::before {
+				display: inline;
+			}
+
 				#header .inner {
 					padding-left: 2em;
 					padding-right: 2em;
@@ -2327,6 +2390,10 @@
 			body, input, textarea, select {
 				font-size: 13pt;
 				line-height: 1.65em;
+			}
+
+			#header:before {
+				display: inline;
 			}
 
 			.tweet {
